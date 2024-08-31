@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj": {}
+    "C:\\Users\\veravalencia\\Source\\Repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj": {}
   },
   "projects": {
-    "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj": {
+    "C:\\Users\\veravalencia\\Source\\Repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj",
+        "projectUniqueName": "C:\\Users\\veravalencia\\Source\\Repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj",
         "projectName": "T01_D_SE03_PedrozaR_VeraF",
-        "projectPath": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj",
-        "packagesPath": "C:\\Users\\Rey\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\obj\\",
+        "projectPath": "C:\\Users\\veravalencia\\Source\\Repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\T01_D_SE03_PedrozaR_VeraF.vbproj",
+        "packagesPath": "C:\\Users\\veravalencia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\veravalencia\\Source\\Repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\veravalencia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
