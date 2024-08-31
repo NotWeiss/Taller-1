@@ -22,4 +22,15 @@
         Application.Exit()
 
     End Sub
+
+    Private Sub btnTextos_Click(sender As Object, e As EventArgs) Handles btnTextos.Click
+        'Guarda como destino el form al que se quiere ir al hacer click'
+        Dim destination As New FormCapture()
+
+        'Muestra el destino'
+        destination.Show()
+
+        'Esconde el Form actual'
+        Me.Hide()
+    End Sub
 End Class
