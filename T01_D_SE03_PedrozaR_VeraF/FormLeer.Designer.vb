@@ -43,20 +43,20 @@ Partial Class frmInfo
         ' infoOutLabel
         ' 
         infoOutLabel.AutoSize = True
-        infoOutLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        infoOutLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         infoOutLabel.Location = New Point(124, 132)
         infoOutLabel.Name = "infoOutLabel"
-        infoOutLabel.Size = New Size(230, 25)
+        infoOutLabel.Size = New Size(233, 25)
         infoOutLabel.TabIndex = 10
         infoOutLabel.Text = "Información Registrada"
         ' 
         ' infoUltiLabel
         ' 
         infoUltiLabel.AutoSize = True
-        infoUltiLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        infoUltiLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         infoUltiLabel.Location = New Point(161, 326)
         infoUltiLabel.Name = "infoUltiLabel"
-        infoUltiLabel.Size = New Size(151, 25)
+        infoUltiLabel.Size = New Size(154, 25)
         infoUltiLabel.TabIndex = 11
         infoUltiLabel.Text = "Ultima Captura"
         ' 
@@ -77,7 +77,7 @@ Partial Class frmInfo
         ' 
         ' txtInfoOut
         ' 
-        txtInfoOut.BorderStyle = BorderStyle.FixedSingle
+        txtInfoOut.BackColor = SystemColors.Window
         txtInfoOut.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtInfoOut.Location = New Point(100, 160)
         txtInfoOut.Multiline = True
@@ -88,7 +88,7 @@ Partial Class frmInfo
         ' 
         ' txtInfUltima
         ' 
-        txtInfUltima.BorderStyle = BorderStyle.FixedSingle
+        txtInfUltima.BackColor = SystemColors.Window
         txtInfUltima.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtInfUltima.Location = New Point(100, 354)
         txtInfUltima.Multiline = True

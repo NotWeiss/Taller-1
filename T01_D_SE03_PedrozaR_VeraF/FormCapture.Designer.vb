@@ -47,20 +47,20 @@ Partial Class frmEntrada
         ' usernameLabel
         ' 
         usernameLabel.AutoSize = True
-        usernameLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        usernameLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         usernameLabel.Location = New Point(194, 118)
         usernameLabel.Name = "usernameLabel"
-        usernameLabel.Size = New Size(84, 25)
+        usernameLabel.Size = New Size(86, 25)
         usernameLabel.TabIndex = 9
         usernameLabel.Text = "Usuario"
         ' 
         ' contrLabel
         ' 
         contrLabel.AutoSize = True
-        contrLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        contrLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         contrLabel.Location = New Point(176, 228)
         contrLabel.Name = "contrLabel"
-        contrLabel.Size = New Size(120, 25)
+        contrLabel.Size = New Size(123, 25)
         contrLabel.TabIndex = 10
         contrLabel.Text = "Contraseña"
         ' 
@@ -71,7 +71,7 @@ Partial Class frmEntrada
         txtUserIn.Location = New Point(100, 146)
         txtUserIn.Multiline = True
         txtUserIn.Name = "txtUserIn"
-        txtUserIn.Size = New Size(275, 48)
+        txtUserIn.Size = New Size(275, 39)
         txtUserIn.TabIndex = 11
         ' 
         ' TextBox2
@@ -89,7 +89,7 @@ Partial Class frmEntrada
         txtContrln.Location = New Point(100, 259)
         txtContrln.Multiline = True
         txtContrln.Name = "txtContrln"
-        txtContrln.Size = New Size(275, 48)
+        txtContrln.Size = New Size(275, 39)
         txtContrln.TabIndex = 13
         ' 
         ' erase_btn
@@ -100,9 +100,9 @@ Partial Class frmEntrada
         erase_btn.FlatAppearance.BorderSize = 0
         erase_btn.FlatStyle = FlatStyle.Flat
         erase_btn.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        erase_btn.Location = New Point(100, 334)
+        erase_btn.Location = New Point(100, 313)
         erase_btn.Name = "erase_btn"
-        erase_btn.Size = New Size(100, 40)
+        erase_btn.Size = New Size(100, 38)
         erase_btn.TabIndex = 16
         erase_btn.Text = "BORRAR"
         erase_btn.UseVisualStyleBackColor = False
@@ -115,9 +115,9 @@ Partial Class frmEntrada
         cmdGuardar.FlatAppearance.BorderSize = 0
         cmdGuardar.FlatStyle = FlatStyle.Flat
         cmdGuardar.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        cmdGuardar.Location = New Point(205, 334)
+        cmdGuardar.Location = New Point(205, 313)
         cmdGuardar.Name = "cmdGuardar"
-        cmdGuardar.Size = New Size(170, 40)
+        cmdGuardar.Size = New Size(170, 38)
         cmdGuardar.TabIndex = 17
         cmdGuardar.Text = "GUARDAR"
         cmdGuardar.UseVisualStyleBackColor = False
