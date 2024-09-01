@@ -78,6 +78,7 @@ Partial Class frmInfo
         ' txtInfoOut
         ' 
         txtInfoOut.BorderStyle = BorderStyle.FixedSingle
+        txtInfoOut.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtInfoOut.Location = New Point(100, 160)
         txtInfoOut.Multiline = True
         txtInfoOut.Name = "txtInfoOut"
@@ -88,6 +89,7 @@ Partial Class frmInfo
         ' txtInfUltima
         ' 
         txtInfUltima.BorderStyle = BorderStyle.FixedSingle
+        txtInfUltima.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtInfUltima.Location = New Point(100, 354)
         txtInfUltima.Multiline = True
         txtInfUltima.Name = "txtInfUltima"
