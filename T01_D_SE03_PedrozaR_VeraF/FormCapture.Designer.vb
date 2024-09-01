@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormCapture
+Partial Class frmEntrada
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,57 +22,57 @@ Partial Class FormCapture
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        capture_title = New Label()
-        user_label = New Label()
-        password_label = New Label()
-        user_txtbox = New TextBox()
+        entradaTitle = New Label()
+        usernameLabel = New Label()
+        contrLabel = New Label()
+        txtUserIn = New TextBox()
         TextBox2 = New TextBox()
-        pass_txtbox = New TextBox()
+        txtContrln = New TextBox()
         erase_btn = New Button()
-        save_btn = New Button()
+        cmdGuardar = New Button()
         btnSalir = New Button()
-        viewdata_btn = New Button()
+        cmdVisual = New Button()
         SuspendLayout()
         ' 
-        ' capture_title
+        ' entradaTitle
         ' 
-        capture_title.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        capture_title.Location = New Point(45, 32)
-        capture_title.Name = "capture_title"
-        capture_title.Size = New Size(412, 63)
-        capture_title.TabIndex = 1
-        capture_title.Text = "CAPTURA DE DATOS"
-        capture_title.TextAlign = ContentAlignment.MiddleCenter
+        entradaTitle.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        entradaTitle.Location = New Point(45, 32)
+        entradaTitle.Name = "entradaTitle"
+        entradaTitle.Size = New Size(412, 63)
+        entradaTitle.TabIndex = 1
+        entradaTitle.Text = "CAPTURA DE DATOS"
+        entradaTitle.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' user_label
+        ' usernameLabel
         ' 
-        user_label.AutoSize = True
-        user_label.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        user_label.Location = New Point(194, 118)
-        user_label.Name = "user_label"
-        user_label.Size = New Size(84, 25)
-        user_label.TabIndex = 9
-        user_label.Text = "Usuario"
+        usernameLabel.AutoSize = True
+        usernameLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        usernameLabel.Location = New Point(194, 118)
+        usernameLabel.Name = "usernameLabel"
+        usernameLabel.Size = New Size(84, 25)
+        usernameLabel.TabIndex = 9
+        usernameLabel.Text = "Usuario"
         ' 
-        ' password_label
+        ' contrLabel
         ' 
-        password_label.AutoSize = True
-        password_label.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        password_label.Location = New Point(176, 228)
-        password_label.Name = "password_label"
-        password_label.Size = New Size(120, 25)
-        password_label.TabIndex = 10
-        password_label.Text = "Contraseña"
+        contrLabel.AutoSize = True
+        contrLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        contrLabel.Location = New Point(176, 228)
+        contrLabel.Name = "contrLabel"
+        contrLabel.Size = New Size(120, 25)
+        contrLabel.TabIndex = 10
+        contrLabel.Text = "Contraseña"
         ' 
-        ' user_txtbox
+        ' txtUserIn
         ' 
-        user_txtbox.BorderStyle = BorderStyle.FixedSingle
-        user_txtbox.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        user_txtbox.Location = New Point(100, 146)
-        user_txtbox.Multiline = True
-        user_txtbox.Name = "user_txtbox"
-        user_txtbox.Size = New Size(275, 48)
-        user_txtbox.TabIndex = 11
+        txtUserIn.BorderStyle = BorderStyle.FixedSingle
+        txtUserIn.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtUserIn.Location = New Point(100, 146)
+        txtUserIn.Multiline = True
+        txtUserIn.Name = "txtUserIn"
+        txtUserIn.Size = New Size(275, 48)
+        txtUserIn.TabIndex = 11
         ' 
         ' TextBox2
         ' 
@@ -82,15 +82,15 @@ Partial Class FormCapture
         TextBox2.Size = New Size(0, 0)
         TextBox2.TabIndex = 12
         ' 
-        ' pass_txtbox
+        ' txtContrln
         ' 
-        pass_txtbox.BorderStyle = BorderStyle.FixedSingle
-        pass_txtbox.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        pass_txtbox.Location = New Point(100, 259)
-        pass_txtbox.Multiline = True
-        pass_txtbox.Name = "pass_txtbox"
-        pass_txtbox.Size = New Size(275, 48)
-        pass_txtbox.TabIndex = 13
+        txtContrln.BorderStyle = BorderStyle.FixedSingle
+        txtContrln.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtContrln.Location = New Point(100, 259)
+        txtContrln.Multiline = True
+        txtContrln.Name = "txtContrln"
+        txtContrln.Size = New Size(275, 48)
+        txtContrln.TabIndex = 13
         ' 
         ' erase_btn
         ' 
@@ -107,20 +107,20 @@ Partial Class FormCapture
         erase_btn.Text = "BORRAR"
         erase_btn.UseVisualStyleBackColor = False
         ' 
-        ' save_btn
+        ' cmdGuardar
         ' 
-        save_btn.AllowDrop = True
-        save_btn.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        save_btn.BackColor = Color.SkyBlue
-        save_btn.FlatAppearance.BorderSize = 0
-        save_btn.FlatStyle = FlatStyle.Flat
-        save_btn.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        save_btn.Location = New Point(205, 334)
-        save_btn.Name = "save_btn"
-        save_btn.Size = New Size(170, 40)
-        save_btn.TabIndex = 17
-        save_btn.Text = "GUARDAR"
-        save_btn.UseVisualStyleBackColor = False
+        cmdGuardar.AllowDrop = True
+        cmdGuardar.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        cmdGuardar.BackColor = Color.SkyBlue
+        cmdGuardar.FlatAppearance.BorderSize = 0
+        cmdGuardar.FlatStyle = FlatStyle.Flat
+        cmdGuardar.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        cmdGuardar.Location = New Point(205, 334)
+        cmdGuardar.Name = "cmdGuardar"
+        cmdGuardar.Size = New Size(170, 40)
+        cmdGuardar.TabIndex = 17
+        cmdGuardar.Text = "GUARDAR"
+        cmdGuardar.UseVisualStyleBackColor = False
         ' 
         ' btnSalir
         ' 
@@ -137,52 +137,52 @@ Partial Class FormCapture
         btnSalir.Text = "REGRESAR"
         btnSalir.UseVisualStyleBackColor = False
         ' 
-        ' viewdata_btn
+        ' cmdVisual
         ' 
-        viewdata_btn.AllowDrop = True
-        viewdata_btn.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        viewdata_btn.BackColor = Color.FromArgb(CByte(143), CByte(209), CByte(79))
-        viewdata_btn.FlatAppearance.BorderSize = 0
-        viewdata_btn.FlatStyle = FlatStyle.Flat
-        viewdata_btn.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        viewdata_btn.Location = New Point(45, 439)
-        viewdata_btn.Name = "viewdata_btn"
-        viewdata_btn.Size = New Size(384, 45)
-        viewdata_btn.TabIndex = 19
-        viewdata_btn.Text = "Leer Datos Guardados"
-        viewdata_btn.UseVisualStyleBackColor = False
+        cmdVisual.AllowDrop = True
+        cmdVisual.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        cmdVisual.BackColor = Color.FromArgb(CByte(143), CByte(209), CByte(79))
+        cmdVisual.FlatAppearance.BorderSize = 0
+        cmdVisual.FlatStyle = FlatStyle.Flat
+        cmdVisual.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        cmdVisual.Location = New Point(45, 439)
+        cmdVisual.Name = "cmdVisual"
+        cmdVisual.Size = New Size(384, 45)
+        cmdVisual.TabIndex = 19
+        cmdVisual.Text = "Leer Datos Guardados"
+        cmdVisual.UseVisualStyleBackColor = False
         ' 
-        ' FormCapture
+        ' frmEntrada
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(480, 600)
-        Controls.Add(viewdata_btn)
+        Controls.Add(cmdVisual)
         Controls.Add(btnSalir)
-        Controls.Add(save_btn)
+        Controls.Add(cmdGuardar)
         Controls.Add(erase_btn)
-        Controls.Add(pass_txtbox)
+        Controls.Add(txtContrln)
         Controls.Add(TextBox2)
-        Controls.Add(user_txtbox)
-        Controls.Add(password_label)
-        Controls.Add(user_label)
-        Controls.Add(capture_title)
+        Controls.Add(txtUserIn)
+        Controls.Add(contrLabel)
+        Controls.Add(usernameLabel)
+        Controls.Add(entradaTitle)
         FormBorderStyle = FormBorderStyle.None
-        Name = "FormCapture"
+        Name = "frmEntrada"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormCapture"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents capture_title As Label
-    Friend WithEvents user_label As Label
-    Friend WithEvents password_label As Label
-    Friend WithEvents user_txtbox As TextBox
+    Friend WithEvents entradaTitle As Label
+    Friend WithEvents usernameLabel As Label
+    Friend WithEvents contrLabel As Label
+    Friend WithEvents txtUserIn As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents pass_txtbox As TextBox
+    Friend WithEvents txtContrln As TextBox
     Friend WithEvents erase_btn As Button
-    Friend WithEvents save_btn As Button
+    Friend WithEvents cmdGuardar As Button
     Friend WithEvents btnSalir As Button
-    Friend WithEvents viewdata_btn As Button
+    Friend WithEvents cmdVisual As Button
 End Class

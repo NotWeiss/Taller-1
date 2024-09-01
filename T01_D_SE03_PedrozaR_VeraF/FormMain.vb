@@ -25,7 +25,7 @@
 
     Private Sub btnTextos_Click(sender As Object, e As EventArgs) Handles btnTextos.Click
         'Guarda como destino el form al que se quiere ir al hacer click'
-        Dim destination As New FormCapture()
+        Dim destination As New frmEntrada()
 
         'Muestra el destino'
         destination.Show()

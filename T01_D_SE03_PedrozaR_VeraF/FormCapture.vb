@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 
-Public Class FormCapture
+Public Class frmEntrada
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
 
         'Guarda como destino el form al que se quiere ir al hacer click'
@@ -14,10 +14,10 @@ Public Class FormCapture
 
     End Sub
 
-    Private Sub save_btn_Click(sender As Object, e As EventArgs) Handles save_btn.Click
+    Private Sub save_btn_Click(sender As Object, e As EventArgs) Handles cmdGuardar.Click
         Try
 
-            If String.IsNullOrWhiteSpace(user_txtbox.Text) OrElse String.IsNullOrWhiteSpace(pass_txtbox.Text) Then
+            If String.IsNullOrWhiteSpace(txtUserIn.Text) OrElse String.IsNullOrWhiteSpace(txtContrln.Text) Then
                 MessageBox.Show("Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Return
             End If
@@ -29,8 +29,8 @@ Public Class FormCapture
             Dim dateTime As String = Date.Now.ToString("yyyy/MM/dd HH:mm:ss")
             Dim filePath As String = Path.Combine(projectDirectory, "UserData.csv")
 
-            Dim userName As String = user_txtbox.Text
-            Dim password As String = pass_txtbox.Text
+            Dim userName As String = txtUserIn.Text
+            Dim password As String = txtContrln.Text
 
             ' Verificar si el archivo CSV ya existe
             Dim fileExists As Boolean = File.Exists(filePath)
@@ -48,8 +48,8 @@ Public Class FormCapture
             End Using
 
             ' Limpiar los campos de entrada
-            user_txtbox.Clear()
-            pass_txtbox.Clear()
+            txtUserIn.Clear()
+            txtContrln.Clear()
 
             ' Confirmar que los datos se han guardado
             MessageBox.Show("¡Datos guardados satisfactoriamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -60,9 +60,9 @@ Public Class FormCapture
     End Sub
 
 
-    Private Sub viewdata_btn_Click(sender As Object, e As EventArgs) Handles viewdata_btn.Click
+    Private Sub viewdata_btn_Click(sender As Object, e As EventArgs) Handles cmdVisual.Click
         'Guarda como destino el form al que se quiere ir al hacer click'
-        Dim destination As New FormLeer()
+        Dim destination As New frmInfo()
 
         'Muestra el destino'
         destination.Show()
@@ -74,12 +74,12 @@ Public Class FormCapture
     Private Sub erase_btn_Click(sender As Object, e As EventArgs) Handles erase_btn.Click
 
         ' Limpiar los campos de entrada
-        user_txtbox.Clear()
-        pass_txtbox.Clear()
+        txtUserIn.Clear()
+        txtContrln.Clear()
 
     End Sub
 
     Private Sub FormCapture_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        pass_txtbox.PasswordChar = "*"
+        txtContrln.PasswordChar = "*"
     End Sub
 End Class

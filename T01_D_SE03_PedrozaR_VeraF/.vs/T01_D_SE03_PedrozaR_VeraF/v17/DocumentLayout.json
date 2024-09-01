@@ -1,12 +1,85 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|c:\\users\\veravalencia\\source\\repos\\taller-1\\t01_d_se03_pedrozar_veraf\\formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|c:\\users\\veravalencia\\source\\repos\\taller-1\\t01_d_se03_pedrozar_veraf\\formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|c:\\users\\veravalencia\\source\\repos\\taller-1\\t01_d_se03_pedrozar_veraf\\formcapture.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formcapture.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|c:\\users\\veravalencia\\source\\repos\\taller-1\\t01_d_se03_pedrozar_veraf\\formcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLeer.vb",
+              "DocumentMoniker": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb",
+              "RelativeDocumentMoniker": "FormLeer.vb",
+              "ToolTip": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb*",
+              "RelativeToolTip": "FormLeer.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-31T23:54:39.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLeer.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb",
+              "RelativeDocumentMoniker": "FormLeer.vb",
+              "ToolTip": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb [Design]*",
+              "RelativeToolTip": "FormLeer.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-31T23:51:11.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCalculadora.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormCalculadora.vb",
+              "RelativeDocumentMoniker": "FormCalculadora.vb",
+              "ToolTip": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormCalculadora.vb [Design]",
+              "RelativeToolTip": "FormCalculadora.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-31T23:50:38.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCapture.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormCapture.vb",
+              "RelativeDocumentMoniker": "FormCapture.vb",
+              "ToolTip": "C:\\Users\\veravalencia\\source\\repos\\Taller-1\\T01_D_SE03_PedrozaR_VeraF\\FormCapture.vb [Design]",
+              "RelativeToolTip": "FormCapture.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-31T23:47:13.476Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

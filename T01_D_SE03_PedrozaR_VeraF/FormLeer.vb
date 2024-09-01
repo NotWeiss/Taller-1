@@ -1,10 +1,10 @@
 ﻿Imports System.IO
 
-Public Class FormLeer
+Public Class frmInfo
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
 
         'Guarda como destino el form al que se quiere ir al hacer click'
-        Dim destination As New frmMain()
+        Dim destination As New frmEntrada()
 
         'Muestra el destino'
         destination.Show()
@@ -37,14 +37,14 @@ Public Class FormLeer
                 Next
 
                 ' Mostrar la tabla en el TextBox de datos
-                data_txtbox.Text = tableText.ToString()
+                txtInfoOut.Text = tableText.ToString()
 
                 ' Obtener la última línea y extraer la fecha
                 Dim lastLine As String = lines.Last()
                 Dim lastDate As String = lastLine
 
                 ' Mostrar solo la fecha en el TextBox de fecha
-                lastdata_txtbox.Text = lastDate
+                txtInfUltima.Text = lastDate
             Else
                 ' Mostrar mensaje si el archivo no existe
                 MessageBox.Show("El archivo CSV no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)

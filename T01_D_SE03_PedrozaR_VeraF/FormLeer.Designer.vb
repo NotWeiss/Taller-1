@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormLeer
+Partial Class frmInfo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,43 +22,43 @@ Partial Class FormLeer
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        capture_title = New Label()
-        info_label = New Label()
-        lastdata_label = New Label()
+        visualizarTitle = New Label()
+        infoOutLabel = New Label()
+        infoUltiLabel = New Label()
         btnSalir = New Button()
-        data_txtbox = New TextBox()
-        lastdata_txtbox = New TextBox()
+        txtInfoOut = New TextBox()
+        txtInfUltima = New TextBox()
         SuspendLayout()
         ' 
-        ' capture_title
+        ' visualizarTitle
         ' 
-        capture_title.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        capture_title.Location = New Point(34, 37)
-        capture_title.Name = "capture_title"
-        capture_title.Size = New Size(412, 63)
-        capture_title.TabIndex = 2
-        capture_title.Text = "LEER DATOS"
-        capture_title.TextAlign = ContentAlignment.MiddleCenter
+        visualizarTitle.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        visualizarTitle.Location = New Point(34, 37)
+        visualizarTitle.Name = "visualizarTitle"
+        visualizarTitle.Size = New Size(412, 63)
+        visualizarTitle.TabIndex = 2
+        visualizarTitle.Text = "LEER DATOS"
+        visualizarTitle.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' info_label
+        ' infoOutLabel
         ' 
-        info_label.AutoSize = True
-        info_label.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        info_label.Location = New Point(124, 132)
-        info_label.Name = "info_label"
-        info_label.Size = New Size(230, 25)
-        info_label.TabIndex = 10
-        info_label.Text = "Información Registrada"
+        infoOutLabel.AutoSize = True
+        infoOutLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        infoOutLabel.Location = New Point(124, 132)
+        infoOutLabel.Name = "infoOutLabel"
+        infoOutLabel.Size = New Size(230, 25)
+        infoOutLabel.TabIndex = 10
+        infoOutLabel.Text = "Información Registrada"
         ' 
-        ' lastdata_label
+        ' infoUltiLabel
         ' 
-        lastdata_label.AutoSize = True
-        lastdata_label.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lastdata_label.Location = New Point(161, 326)
-        lastdata_label.Name = "lastdata_label"
-        lastdata_label.Size = New Size(151, 25)
-        lastdata_label.TabIndex = 11
-        lastdata_label.Text = "Ultima Captura"
+        infoUltiLabel.AutoSize = True
+        infoUltiLabel.Font = New Font("Roboto", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        infoUltiLabel.Location = New Point(161, 326)
+        infoUltiLabel.Name = "infoUltiLabel"
+        infoUltiLabel.Size = New Size(151, 25)
+        infoUltiLabel.TabIndex = 11
+        infoUltiLabel.Text = "Ultima Captura"
         ' 
         ' btnSalir
         ' 
@@ -75,49 +75,49 @@ Partial Class FormLeer
         btnSalir.Text = "REGRESAR"
         btnSalir.UseVisualStyleBackColor = False
         ' 
-        ' data_txtbox
+        ' txtInfoOut
         ' 
-        data_txtbox.BorderStyle = BorderStyle.FixedSingle
-        data_txtbox.Location = New Point(100, 160)
-        data_txtbox.Multiline = True
-        data_txtbox.Name = "data_txtbox"
-        data_txtbox.ReadOnly = True
-        data_txtbox.Size = New Size(275, 140)
-        data_txtbox.TabIndex = 20
+        txtInfoOut.BorderStyle = BorderStyle.FixedSingle
+        txtInfoOut.Location = New Point(100, 160)
+        txtInfoOut.Multiline = True
+        txtInfoOut.Name = "txtInfoOut"
+        txtInfoOut.ReadOnly = True
+        txtInfoOut.Size = New Size(275, 140)
+        txtInfoOut.TabIndex = 20
         ' 
-        ' lastdata_txtbox
+        ' txtInfUltima
         ' 
-        lastdata_txtbox.BorderStyle = BorderStyle.FixedSingle
-        lastdata_txtbox.Location = New Point(100, 354)
-        lastdata_txtbox.Multiline = True
-        lastdata_txtbox.Name = "lastdata_txtbox"
-        lastdata_txtbox.ReadOnly = True
-        lastdata_txtbox.Size = New Size(275, 48)
-        lastdata_txtbox.TabIndex = 21
+        txtInfUltima.BorderStyle = BorderStyle.FixedSingle
+        txtInfUltima.Location = New Point(100, 354)
+        txtInfUltima.Multiline = True
+        txtInfUltima.Name = "txtInfUltima"
+        txtInfUltima.ReadOnly = True
+        txtInfUltima.Size = New Size(275, 48)
+        txtInfUltima.TabIndex = 21
         ' 
-        ' FormLeer
+        ' frmInfo
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(480, 600)
-        Controls.Add(lastdata_txtbox)
-        Controls.Add(data_txtbox)
+        Controls.Add(txtInfUltima)
+        Controls.Add(txtInfoOut)
         Controls.Add(btnSalir)
-        Controls.Add(lastdata_label)
-        Controls.Add(info_label)
-        Controls.Add(capture_title)
+        Controls.Add(infoUltiLabel)
+        Controls.Add(infoOutLabel)
+        Controls.Add(visualizarTitle)
         FormBorderStyle = FormBorderStyle.None
-        Name = "FormLeer"
+        Name = "frmInfo"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormLeer"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents capture_title As Label
-    Friend WithEvents info_label As Label
-    Friend WithEvents lastdata_label As Label
+    Friend WithEvents visualizarTitle As Label
+    Friend WithEvents infoOutLabel As Label
+    Friend WithEvents infoUltiLabel As Label
     Friend WithEvents btnSalir As Button
-    Friend WithEvents data_txtbox As TextBox
-    Friend WithEvents lastdata_txtbox As TextBox
+    Friend WithEvents txtInfoOut As TextBox
+    Friend WithEvents txtInfUltima As TextBox
 End Class
