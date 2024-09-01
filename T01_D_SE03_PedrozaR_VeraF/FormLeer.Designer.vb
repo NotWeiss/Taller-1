@@ -28,14 +28,15 @@ Partial Class frmInfo
         btnSalir = New Button()
         txtInfoOut = New TextBox()
         txtInfUltima = New TextBox()
+        lblCopyright = New Label()
         SuspendLayout()
         ' 
         ' visualizarTitle
         ' 
         visualizarTitle.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        visualizarTitle.Location = New Point(34, 37)
+        visualizarTitle.Location = New Point(45, 38)
         visualizarTitle.Name = "visualizarTitle"
-        visualizarTitle.Size = New Size(412, 63)
+        visualizarTitle.Size = New Size(384, 60)
         visualizarTitle.TabIndex = 2
         visualizarTitle.Text = "LEER DATOS"
         visualizarTitle.TextAlign = ContentAlignment.MiddleCenter
@@ -44,7 +45,7 @@ Partial Class frmInfo
         ' 
         infoOutLabel.AutoSize = True
         infoOutLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        infoOutLabel.Location = New Point(124, 132)
+        infoOutLabel.Location = New Point(121, 132)
         infoOutLabel.Name = "infoOutLabel"
         infoOutLabel.Size = New Size(233, 25)
         infoOutLabel.TabIndex = 10
@@ -54,7 +55,7 @@ Partial Class frmInfo
         ' 
         infoUltiLabel.AutoSize = True
         infoUltiLabel.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        infoUltiLabel.Location = New Point(161, 326)
+        infoUltiLabel.Location = New Point(160, 326)
         infoUltiLabel.Name = "infoUltiLabel"
         infoUltiLabel.Size = New Size(154, 25)
         infoUltiLabel.TabIndex = 11
@@ -97,11 +98,23 @@ Partial Class frmInfo
         txtInfUltima.Size = New Size(275, 48)
         txtInfUltima.TabIndex = 21
         ' 
+        ' lblCopyright
+        ' 
+        lblCopyright.AutoSize = True
+        lblCopyright.BackColor = Color.Transparent
+        lblCopyright.Font = New Font("Segoe UI", 12F)
+        lblCopyright.Location = New Point(231, 570)
+        lblCopyright.Name = "lblCopyright"
+        lblCopyright.Size = New Size(237, 21)
+        lblCopyright.TabIndex = 22
+        lblCopyright.Text = "©Reynaldo Pedroza y Franz Vera"
+        ' 
         ' frmInfo
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(480, 600)
+        Controls.Add(lblCopyright)
         Controls.Add(txtInfUltima)
         Controls.Add(txtInfoOut)
         Controls.Add(btnSalir)
@@ -122,4 +135,5 @@ Partial Class frmInfo
     Friend WithEvents btnSalir As Button
     Friend WithEvents txtInfoOut As TextBox
     Friend WithEvents txtInfUltima As TextBox
+    Friend WithEvents lblCopyright As Label
 End Class

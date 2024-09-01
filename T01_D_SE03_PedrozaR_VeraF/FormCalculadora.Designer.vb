@@ -77,9 +77,11 @@ Partial Class frmCalculadora
         ' 
         ' txtResultado
         ' 
+        txtResultado.BackColor = Color.White
         txtResultado.Font = New Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtResultado.Location = New Point(100, 275)
         txtResultado.Name = "txtResultado"
+        txtResultado.ReadOnly = True
         txtResultado.Size = New Size(275, 93)
         txtResultado.TabIndex = 4
         txtResultado.TextAlign = HorizontalAlignment.Center
@@ -172,6 +174,7 @@ Partial Class frmCalculadora
         ' lblCopyright
         ' 
         lblCopyright.AutoSize = True
+        lblCopyright.BackColor = Color.Transparent
         lblCopyright.Font = New Font("Segoe UI", 12F)
         lblCopyright.Location = New Point(231, 570)
         lblCopyright.Name = "lblCopyright"

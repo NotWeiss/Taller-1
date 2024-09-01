@@ -19,47 +19,55 @@ Public Class frmCalculadora
     Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
 
         'Borra todos los datos que se encuentren en los controladores'
-        txtResultado.Text = ""
-        txtValor1.Text = ""
-        txtValor2.Text = ""
+        txtResultado.Clear()
+        txtValor1.Clear()
+        txtValor2.Clear()
         cboOperacion.Text = ""
 
     End Sub
 
     Private Sub btnCalcular_Click(sender As Object, e As EventArgs) Handles btnCalcular.Click
+        Try
 
-        Dim operador As String
-        Dim valor1 As Double, valor2 As Double, resultado As Double
+            Dim operador As String
+            Dim valor1 As Double, valor2 As Double, resultado As Double
 
-        'Limpia los datos y los guarda en su respectiva variable'
-        valor1 = Double.Parse(LimpiarDatos(txtValor1.Text))
-        valor2 = Double.Parse(LimpiarDatos(txtValor2.Text))
-        operador = cboOperacion.Text
+            'Limpia los datos y los guarda en su respectiva variable'
+            valor1 = Double.Parse(LimpiarDatos(txtValor1.Text))
+            valor2 = Double.Parse(LimpiarDatos(txtValor2.Text))
+            operador = cboOperacion.Text
 
-        'Dependiendo del valor que se haya seleccionado en el comboBox se realizara...'
-        Select Case operador
-            Case "+"
-                resultado = valor1 + valor2
+            'Dependiendo del valor que se haya seleccionado en el comboBox se realizara...'
+            Select Case operador
+                Case "+"
+                    resultado = valor1 + valor2
 
-            Case "-"
-                resultado = valor1 - valor2
+                Case "-"
+                    resultado = valor1 - valor2
 
-            Case "x"
-                resultado = valor1 * valor2
+                Case "x"
+                    resultado = valor1 * valor2
 
-            Case "/"
-                If valor2 = 0 Then
-                    resultado = 0
-                Else
-                    resultado = valor1 / valor2
-                End If
-            Case Else
-                MessageBox.Show("Ha ocurrido un error")
+                Case "/"
+                    If valor2 = 0 Then
+                        resultado = 0
+                    Else
+                        resultado = valor1 / valor2
+                    End If
+                Case Else
+                    MessageBox.Show("Recuerde seleccionar una operacion")
 
-        End Select
+            End Select
 
-        'redondea el resultado obtenido y lo envia al TextBox que almacena el resultado'
-        txtResultado.Text = Math.Round(resultado, 2).ToString()
+            'redondea el resultado obtenido y lo envia al TextBox que almacena el resultado'
+            txtResultado.Text = Math.Round(resultado, 2).ToString()
+
+        Catch ex As Exception
+            'Mostrar Mensaje de Error
+            MessageBox.Show("Ha ocurrido un error. Asegurese de que los datos sean los correctos")
+            txtResultado.Text = ""
+        End Try
+
 
 
     End Sub
@@ -70,4 +78,8 @@ Public Class frmCalculadora
         Return Regex.Replace(input, "[^\d.]", "")
 
     End Function
+
+    Private Sub frmCalculadora_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
