@@ -125,11 +125,11 @@ Partial Class frmCreditos
         ' 
         lblIntegrante2.AutoSize = True
         lblIntegrante2.Font = New Font("Segoe UI", 12F)
-        lblIntegrante2.Location = New Point(189, 320)
+        lblIntegrante2.Location = New Point(147, 320)
         lblIntegrante2.Name = "lblIntegrante2"
-        lblIntegrante2.Size = New Size(97, 21)
+        lblIntegrante2.Size = New Size(181, 21)
         lblIntegrante2.TabIndex = 11
-        lblIntegrante2.Text = "Franz Vera ()"
+        lblIntegrante2.Text = "Franz Vera (8-971-1172)"
         ' 
         ' txtDescripcion
         ' 

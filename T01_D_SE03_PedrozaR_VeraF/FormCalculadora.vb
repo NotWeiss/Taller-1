@@ -55,7 +55,7 @@ Public Class frmCalculadora
                         resultado = valor1 / valor2
                     End If
                 Case Else
-                    MessageBox.Show("Recuerde seleccionar una operacion")
+                    MessageBox.Show("Recuerde seleccionar una operacion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
 
             End Select
 
@@ -64,7 +64,7 @@ Public Class frmCalculadora
 
         Catch ex As Exception
             'Mostrar Mensaje de Error
-            MessageBox.Show("Ha ocurrido un error. Asegurese de que los datos sean los correctos")
+            MessageBox.Show("Ha ocurrido un error. Asegurese de que los datos sean los correctos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             txtResultado.Text = ""
         End Try
 
