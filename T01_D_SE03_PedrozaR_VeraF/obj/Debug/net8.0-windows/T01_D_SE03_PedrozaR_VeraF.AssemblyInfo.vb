@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("T01_D_SE03_PedrozaR_VeraF"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+586af9d29bb0b3887142d4c3cd6fe48567fd90ad"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28e0518244808abff5c6fb2a8346c785be2b7bde"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("T01_D_SE03_PedrozaR_VeraF"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("T01_D_SE03_PedrozaR_VeraF"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

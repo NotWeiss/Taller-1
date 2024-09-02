@@ -35,6 +35,8 @@ Public Class frmCalculadora
             'Limpia los datos y los guarda en su respectiva variable'
             valor1 = Double.Parse(LimpiarDatos(txtValor1.Text))
             valor2 = Double.Parse(LimpiarDatos(txtValor2.Text))
+            txtValor1.Text = valor1
+            txtValor2.Text = valor2
             operador = cboOperacion.Text
 
             'Dependiendo del valor que se haya seleccionado en el comboBox se realizara...'
@@ -72,10 +74,16 @@ Public Class frmCalculadora
 
     End Sub
 
-    'Elimina todo que se haya ingresado que no sea un numero'
+    'Sanitiza la entrada de datos'
     Private Function LimpiarDatos(input As String) As String
 
-        Return Regex.Replace(input, "[^\d.]", "")
+        'Elimina todos los caracteres que no sean numeros (0-9) o puntos(".")'
+        Dim result As String = Regex.Replace(input, "[^\d.]", "")
+
+        'Elimina todos los puntos de mas que se encuentren en la cadena, solo conserva el primero'
+        result = Regex.Replace(result, "(?<=\..*?)\.", "")
+
+        Return result
 
     End Function
 
