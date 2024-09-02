@@ -8,12 +8,4 @@
         'Esconde el Form actual'
         Me.Hide()
     End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtDescripcion.TextChanged
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles lblVBversion.Click
-
-    End Sub
 End Class
