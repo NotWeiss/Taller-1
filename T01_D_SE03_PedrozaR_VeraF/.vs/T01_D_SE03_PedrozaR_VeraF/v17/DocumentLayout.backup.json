@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|d:\\universidad\\proyectos cooperativos\\desarrollo viii\\taller_1\\t01_d_se03_pedrozar_veraf\\formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formleer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|d:\\universidad\\proyectos cooperativos\\desarrollo viii\\taller_1\\t01_d_se03_pedrozar_veraf\\formcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{CF89B4D2-448B-4D79-85CA-338F94ED6AD4}|T01_D_SE03_PedrozaR_VeraF.vbproj|solutionrelative:formcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -23,19 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormLeer.vb [Design]",
+              "DocumentMoniker": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb",
+              "RelativeDocumentMoniker": "FormLeer.vb",
+              "ToolTip": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\FormLeer.vb [Design]",
+              "RelativeToolTip": "FormLeer.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-02T06:25:08.052Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormCalculadora.vb",
               "DocumentMoniker": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\FormCalculadora.vb",
               "RelativeDocumentMoniker": "FormCalculadora.vb",
               "ToolTip": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\FormCalculadora.vb",
               "RelativeToolTip": "FormCalculadora.vb",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCMAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-02T03:37:13.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormCalculadora.vb [Design]",
               "DocumentMoniker": "D:\\Universidad\\Proyectos Cooperativos\\Desarrollo VIII\\Taller_1\\T01_D_SE03_PedrozaR_VeraF\\FormCalculadora.vb",
               "RelativeDocumentMoniker": "FormCalculadora.vb",

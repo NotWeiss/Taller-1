@@ -79,13 +79,14 @@ Partial Class frmInfo
         ' txtInfoOut
         ' 
         txtInfoOut.BackColor = SystemColors.Window
-        txtInfoOut.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtInfoOut.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtInfoOut.Location = New Point(100, 160)
         txtInfoOut.Multiline = True
         txtInfoOut.Name = "txtInfoOut"
         txtInfoOut.ReadOnly = True
         txtInfoOut.Size = New Size(275, 140)
         txtInfoOut.TabIndex = 20
+        txtInfoOut.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtInfUltima
         ' 
@@ -97,6 +98,7 @@ Partial Class frmInfo
         txtInfUltima.ReadOnly = True
         txtInfUltima.Size = New Size(275, 48)
         txtInfUltima.TabIndex = 21
+        txtInfUltima.TextAlign = HorizontalAlignment.Center
         ' 
         ' lblCopyright
         ' 
