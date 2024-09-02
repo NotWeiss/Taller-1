@@ -24,11 +24,10 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         lblNombreApp = New Label()
         lblCopyright = New Label()
-        lblCurso = New Label()
         btnSalir = New Button()
         btnCalculadora = New Button()
         btnTextos = New Button()
-        lblAsignacion = New Label()
+        btnCreditos = New Button()
         SuspendLayout()
         ' 
         ' lblNombreApp
@@ -44,22 +43,13 @@ Partial Class frmMain
         ' lblCopyright
         ' 
         lblCopyright.AutoSize = True
+        lblCopyright.BackColor = Color.Transparent
         lblCopyright.Font = New Font("Segoe UI", 12F)
         lblCopyright.Location = New Point(231, 570)
         lblCopyright.Name = "lblCopyright"
         lblCopyright.Size = New Size(237, 21)
         lblCopyright.TabIndex = 1
         lblCopyright.Text = "©Reynaldo Pedroza y Franz Vera"
-        ' 
-        ' lblCurso
-        ' 
-        lblCurso.AutoSize = True
-        lblCurso.Font = New Font("Segoe UI", 14F)
-        lblCurso.Location = New Point(119, 103)
-        lblCurso.Name = "lblCurso"
-        lblCurso.Size = New Size(236, 25)
-        lblCurso.TabIndex = 2
-        lblCurso.Text = "Desarrollo de Software VIII"
         ' 
         ' btnSalir
         ' 
@@ -84,7 +74,7 @@ Partial Class frmMain
         btnCalculadora.FlatAppearance.BorderSize = 0
         btnCalculadora.FlatStyle = FlatStyle.Flat
         btnCalculadora.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnCalculadora.Location = New Point(45, 244)
+        btnCalculadora.Location = New Point(45, 226)
         btnCalculadora.Name = "btnCalculadora"
         btnCalculadora.Size = New Size(384, 45)
         btnCalculadora.TabIndex = 4
@@ -99,33 +89,37 @@ Partial Class frmMain
         btnTextos.FlatAppearance.BorderSize = 0
         btnTextos.FlatStyle = FlatStyle.Flat
         btnTextos.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnTextos.Location = New Point(45, 310)
+        btnTextos.Location = New Point(45, 289)
         btnTextos.Name = "btnTextos"
         btnTextos.Size = New Size(384, 45)
         btnTextos.TabIndex = 5
         btnTextos.Text = "MANEJO DE TEXTOS"
         btnTextos.UseVisualStyleBackColor = False
         ' 
-        ' lblAsignacion
+        ' btnCreditos
         ' 
-        lblAsignacion.AutoSize = True
-        lblAsignacion.Font = New Font("Segoe UI", 14F)
-        lblAsignacion.Location = New Point(196, 133)
-        lblAsignacion.Name = "lblAsignacion"
-        lblAsignacion.Size = New Size(83, 25)
-        lblAsignacion.TabIndex = 6
-        lblAsignacion.Text = "Taller #1"
+        btnCreditos.AllowDrop = True
+        btnCreditos.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        btnCreditos.BackColor = Color.SkyBlue
+        btnCreditos.FlatAppearance.BorderSize = 0
+        btnCreditos.FlatStyle = FlatStyle.Flat
+        btnCreditos.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCreditos.Location = New Point(45, 352)
+        btnCreditos.Name = "btnCreditos"
+        btnCreditos.Size = New Size(384, 45)
+        btnCreditos.TabIndex = 7
+        btnCreditos.Text = "CREDITOS"
+        btnCreditos.UseVisualStyleBackColor = False
         ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(480, 600)
-        Controls.Add(lblAsignacion)
+        Controls.Add(btnCreditos)
         Controls.Add(btnTextos)
         Controls.Add(btnCalculadora)
         Controls.Add(btnSalir)
-        Controls.Add(lblCurso)
         Controls.Add(lblCopyright)
         Controls.Add(lblNombreApp)
         FormBorderStyle = FormBorderStyle.None
@@ -139,10 +133,9 @@ Partial Class frmMain
 
     Friend WithEvents lblNombreApp As Label
     Friend WithEvents lblCopyright As Label
-    Friend WithEvents lblCurso As Label
     Friend WithEvents btnSalir As Button
     Friend WithEvents btnCalculadora As Button
     Friend WithEvents btnTextos As Button
-    Friend WithEvents lblAsignacion As Label
+    Friend WithEvents btnCreditos As Button
 
 End Class

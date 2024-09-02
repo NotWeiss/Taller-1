@@ -32,14 +32,15 @@ Partial Class frmEntrada
         cmdGuardar = New Button()
         btnSalir = New Button()
         cmdVisual = New Button()
+        lblCopyright = New Label()
         SuspendLayout()
         ' 
         ' entradaTitle
         ' 
         entradaTitle.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        entradaTitle.Location = New Point(45, 32)
+        entradaTitle.Location = New Point(45, 38)
         entradaTitle.Name = "entradaTitle"
-        entradaTitle.Size = New Size(412, 63)
+        entradaTitle.Size = New Size(384, 60)
         entradaTitle.TabIndex = 1
         entradaTitle.Text = "CAPTURA DE DATOS"
         entradaTitle.TextAlign = ContentAlignment.MiddleCenter
@@ -152,11 +153,23 @@ Partial Class frmEntrada
         cmdVisual.Text = "Leer Datos Guardados"
         cmdVisual.UseVisualStyleBackColor = False
         ' 
+        ' lblCopyright
+        ' 
+        lblCopyright.AutoSize = True
+        lblCopyright.BackColor = Color.Transparent
+        lblCopyright.Font = New Font("Segoe UI", 12F)
+        lblCopyright.Location = New Point(231, 570)
+        lblCopyright.Name = "lblCopyright"
+        lblCopyright.Size = New Size(237, 21)
+        lblCopyright.TabIndex = 20
+        lblCopyright.Text = "©Reynaldo Pedroza y Franz Vera"
+        ' 
         ' frmEntrada
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(480, 600)
+        Controls.Add(lblCopyright)
         Controls.Add(cmdVisual)
         Controls.Add(btnSalir)
         Controls.Add(cmdGuardar)
@@ -185,4 +198,5 @@ Partial Class frmEntrada
     Friend WithEvents cmdGuardar As Button
     Friend WithEvents btnSalir As Button
     Friend WithEvents cmdVisual As Button
+    Friend WithEvents lblCopyright As Label
 End Class
